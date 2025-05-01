@@ -7,7 +7,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def deleteNode(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
+    def deleteNode(self, root, key: int):
         if root is None:
             return None
 
